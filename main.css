@@ -82,10 +82,26 @@ li {
  main {
     width: 85%;
     flex-basis: 85%;
-   }                  
-  
+   } 
+   /*********************************
+ * rows
+ *********************************/
 
-/*********************************
-* Footer
-*********************************/              
+  
+   div[class$='row']  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+  }
+ .top-row img {
+    width: 100%;
+ }
+ .middle-row img {
+   width: 49%;
+ }
+ .bottom-row img {
+   width: 32%;
+ }                                  
+           
 
